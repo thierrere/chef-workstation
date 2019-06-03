@@ -6,4 +6,4 @@
 #
 
 package 'ntp'
-package 'apache2'
+package node['chef-workstation']['package-name']
