@@ -1,9 +1,10 @@
 #
 # Cookbook:: chef-workstation
-# Recipe:: setup
+# Recipe:: service
 #
 # Copyright:: 2019, The Authors, All Rights Reserved.
 #
-
-package 'ntp'
-package 'apache2'
+#
+service 'apache2' do
+  action[:start, :enable]
+end

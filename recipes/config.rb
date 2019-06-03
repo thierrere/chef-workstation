@@ -1,9 +1,8 @@
 #
 # Cookbook:: chef-workstation
-# Recipe:: setup
+# Recipe:: config
 #
 # Copyright:: 2019, The Authors, All Rights Reserved.
 #
 
-package 'ntp'
-package 'apache2'
+file 
